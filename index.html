@@ -1,72 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+
+>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web dos</title>
+    <title>Portfolio Web</title>
     <link rel="stylesheet" href="estilos.css">
     <script src="codigo.js"></script>
 
-   
+
 </head>
 
-<body style="color: black;">
+<body>
 
-    
 
-    <h1 style="color: red; font-size: 75PX;">Pokedex</h1> 
-    <h2>Enciclopedia Pokemon</h2> 
-    <p style="color: blue;"> en este sitio encontraras toda la info sobre el mundo pokemon</p>
-    <P>puedes agregar la info que tengas al respecto...</P>
-    <p id="parrafo3">OTRO PARRAFO</p> 
-
-    
-    
-    
-    
-    
-    
-
-    
-    <table>
-        <tr> 
-            <td><img width="300px" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png" alt="Azulito"> 
-            <td><img width="300px" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/002.png" alt="Azulito"> 
-            <td><img width="300px" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/006.png" alt="Azulito"> 
-        </tr>
-
-        <tr>
-          <td><img width="300px" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" alt="Azulito"> 
-          <td><img width="300px" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" alt="Azulito"> 
-          <td><img width="300px" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" alt="Azulito"> 
-        </tr>
-    </table> 
-    
-    
-    
-    
-    <div class="colorPrincipal">
-    <label for="">User</label>
-    <input type="text" id="txtUser">
-    </div> 
-
-    <div>
-    <label for="">Pass</label>
-    <input type="password" id="txtPass">
+    <div class="menu">
+        <a href="#presentacion">Presentacion</a>
+        <a href="#informacion">informacion</a>
+        <a href="#conocimientos">Conocimientos</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#redes">Redes</a>
+        <a href="#contacto">Contacto</a>
     </div>
 
-    <div>
-    <button onclick="sumar()">Ingresar</button>
+    <div id="rectanguloInicio">
+        <h1 id="titulo1">Bienvenido a mi Portfolio</h1>
     </div>
-    <div id="cuadrado">
-        HOLA
+
+
+
+    <div id="presentacion">
+        <div id="cuadradoMedio">
+            <h1>Hola soy Rodrigo Galarza</h1>
+            <img src="f1.jpg" alt="Foto de presentacion" id="imagenPresentacion">
+            <p>Bienvenido a mi porfolio ,soy alumno de la Universidad Tecnologica Nacional: UTN,
+                actualmente estoy cursando la carrera de tecnicatura universitaria en programacion,
+                la carrera la inicie el año 2024, realizamos varios proyectos y la utilizacion de varias
+                herramientas en esta area, y vivo con emocion que nos deparara al finalizar esta carrera hermosa.
+            </p>
+        </div>
     </div>
-    
-    
-    <span></span> 
-    
- 
+
+
+    <div id="informacion">
+        <h2>INFORMACION</h2>
+        <p>Vivo en la ciudad de buenas aires, actualmente en la localidad de ingeniero adolfo sourdeaux,
+            curso la carrera con 24 años,vivo con mis padres por el momento,trabajo de 8hs a 22hs en un almacen
+            como empleado,estudio con tiempo y forma , ya que tengo descansos por la tarde apartir de las 14hs
+            para enfocarme en la carrera.
+        </p>
+    </div>
+
+    <div id="conocimientos">
+
+        <h3> CONOCIMIENTOS</h3>
+        <p1>Realicé cursos anteriores en las áreas de reparación y armado de computadoras y celulares. 
+            El curso de PC fue
+            realizado en San Miguel, Escuela Leicester, 
+            finalizado con titulo
+            certificado.</p1>
+
+        <img src="Leicester.png" alt="Foto de Leicester" class="imagenC1">
+
+        <p2>El curso de Celulares fue realizado en San Miguel, Escuela Educativa EDDIS,
+            finalizado con titulo
+            certificado.</p2>
+
+        <img src="eddis.png" alt="Foto de Eddis" class="imagenC2">
+
+    </div>
+
+    <div id="proyectos">
+        <h4>Proyectos</h4>
+        <p> En el Primer año de la carrera T.U.P(tecnicatura universitaria en programacion) en la materia de
+            programacion 1,
+            realizamos en grupo con C++, lenguaje de programacion que nos ayudo a realizar un proyecto, asesorado por
+            profesores,
+            un juego llamado "Escalera" juego de dados ,multijugador , que con tan solo contar con 100 puntos en 6
+            tiradas,ganabas la partida
+            Programacion 2, en esta materia nos toco profundizar los conocimientos del lenguaje C++ para armar en Grupo
+            un Sistema de gestion,
+            asesorado por profesores,proyecto llamado Alquiler de Salon de Eventos, el cual realizaba el registro de
+            clientes con la necesidad,
+            de alquilar un salon para sus eventos,incluyendo distintos tipos de servicios,donde todos los registros
+            serian almacenados,
+            en archivos de clase, se podian realizar altas,bajas,modificaciones,incluso eliminarse.
+
+
+        </p>
+    </div>
+<div id="redes">
+         <h5>Redes</h5>
+        <p>
+            GitHub: <a href="https://github.com/Rodrigo3312" target="_blank">Rodrigo3312</a>
+        </p>
+        <img src="github.jpg" alt="Logo GitHub" class="imagen1">
+
+        <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/rodrigo-galarza-2467512bb" target="_blank">Rodrigo
+                Galarza</a>
+        </p>
+        <img src="linkedin.jpg" alt="Logo LinkedIn" class="imagen2">
+
+        <p>
+            Instagram: <a href="https://www.instagram.com/rodri_galarza.e18" target="_blank">rodri_galarza.e18</a>
+        </p>
+        <img src="Instagram.png" alt="Logo Instagram" class="imagen3">
+
+    </div>
+    <div id="contacto">
+
+        <h6> Contactos:</h6>
+
+        <p>
+        EMAIL: <a href="rodrigogalarza241@gmail.com">rodrigogalarza241@gmail.com
+            <img src="gmail.png" alt="Enviar email" class="imagen1" />
+
+        </a><br>
+        Celular: +54 1127720961
+    </p>
+
+
+    </div>
+
+
+
+
+    <div id="rectanguloFin">
+
+    </div>
+
+
+
+
 
 
 </body>
+
 </html>
